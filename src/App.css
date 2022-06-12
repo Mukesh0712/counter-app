@@ -1,0 +1,74 @@
+.container{
+  border: 6px double rgb(0, 0, 0);
+  width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 150px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 3px 4px black;
+}
+
+.team-container{
+  display: inline-block;
+  border: none;
+  width: 200px;
+  height: 200px;
+  padding: 10px;
+  margin: 30px;
+  margin-left: 85px;
+  border-radius: 10px;
+}
+
+.heading{
+  margin: 10px;
+  text-align: center;
+  font-size: 40px;
+}
+
+.btn-container{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+
+}
+
+.btn{
+  text-align: center;
+  margin: 0%;
+  border-radius: 10px;
+  background-color: transparent;
+  border: 2px solid black;
+  width: 50px;  
+  font-size: 40px; 
+}
+
+.btn:hover{
+  color: white;
+  background-color: chartreuse;
+}
+
+.count{
+  margin: 0%;
+  text-align: center;
+  font-size: 80px;
+}
+
+.reset-container{
+  text-align: center;
+  margin: 20px;
+}
+
+.reset-btn{
+  background-color: rgb(209, 84, 84);
+  font-size: 20px;
+  padding: 5px;
+  border: none;
+  width: 80px;
+  margin-left: 30px;
+  border-radius: 10px;
+}
+
+.reset-btn:hover{
+  color: white;
+  background-color: brown;
+}
